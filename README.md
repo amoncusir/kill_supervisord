@@ -2,6 +2,12 @@
 
 Simple project to host a Supervisord Event listener
 
+## Download
+
+```bash
+wget https://github.com/amoncusir/kill_supervisord/releases/download/1.0/kill_superd.py
+```
+
 ## What is it and how it work?
 
 It's a simple script written in Python (+2.7) that implements the `Event Listener` interface of Supervisord.
