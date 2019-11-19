@@ -7,7 +7,7 @@ Simple project to host a Supervisord Event listener
 It's a simple script written in Python (+2.7) that implements the `Event Listener` interface of Supervisord.
 [See this link for more details](http://supervisord.org/events.html).
 
-The propose is to kill the Supervisord when the main program dies. This helps in the Docker environments when
+The main propose is to kill the Supervisord when the assigned process dies. This helps in the Docker environments when
 need pass to Docker the life-cycle of a service.
 
 This script has two ways to kill the Supervisord process.
